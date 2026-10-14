@@ -1,0 +1,26 @@
+# ===== Build artifacts (compiled firmware) =====
+build/
+firmware/**/build/
+*.bin
+*.elf
+*.hex
+*.uf2
+*.map
+*.partitions.bin
+*.bootloader.bin
+*.sdkconfig
+*.buildinfo
+sketch.buildinfo
+
+# ===== WorkBuddy local memory (AI assistant, not project code) =====
+.workbuddy/
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ===== Python caches =====
+__pycache__/
+*.pyc
